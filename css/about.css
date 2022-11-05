@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: red;
+}
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    color: gray;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+/* about section desigm */
+.about_contner {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}

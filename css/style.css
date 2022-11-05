@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: red;
+}
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    color: gray;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+/* baner style */
+.baner {
+    background-image: url(../img/2_banar.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.baner h1 {
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+.baner a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FEATURED_PRODUCT style start */
+.FEATURED_PRODUCT {
+    margin: 30px 120px;
+
+}
+
+.FEATURED_PRODUCT h2 {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.FEATURED_PRODUCT h2 hr {
+    border: 5px solid black;
+}
+
+.FEATURED_PRODUCT img {
+    width: 95%;
+    height: auto;
+    margin-top: 14px;
+    border: 2px solid red;
+
+
+}
